@@ -9,3 +9,6 @@ numbers and the larger value is: followed by the larger value.
 3. Augment the program so that it writes the line the numbers are equal (only) if they are equal.
 
 4. Change the program so it uses doubles instead of ints.
+
+5. Change the program so that it writes out the numbers are almost equal after writing
+   out which is the larger and the smaller if the two numbers differ by less than 1.0 / 100.
