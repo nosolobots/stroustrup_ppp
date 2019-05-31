@@ -24,4 +24,17 @@ numbers and the larger value is: followed by the larger value.
    1ft == 12in. Read the unit indicator into a string. You may consider 12 m (with a space between 
    the number and the unit) equivalent to 12m (without a space).
 
+8. Reject values without units or with “illegal” representations of units, such as y, yard, meter, 
+   km, and gallons.
+
+9. Keep track of the sum of values entered (as well as the smallest and the largest) and the number 
+   of values entered. When the loop ends, print the smallest, the largest, the number of values, and 
+   the sum of values. Note that to keep the sum, you have to decide on a unit to use for that sum; 
+   use meters.
+
+10. Keep all the values entered (converted into meters) in a vector. At the end, write out those values.
+
+11. Before writing out the values from the vector, sort them (that’ll make them come out in increasing order).
+
+
 
