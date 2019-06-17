@@ -19,7 +19,7 @@ int main() {
     char op;
     string sop = "";
 
-    cout<<"Give me two numbers and an aoperation (+, -, *, /)"<<endl;
+    cout<<"Give me two numbers and an operation (+, -, *, /)"<<endl;
     while(!(cin>>n1>>n2>>op)) { 
         cin.clear();
         string s; 
