@@ -1,4 +1,5 @@
-### Chapter 4 · COMPUTATION
+#### Chapter 4 · COMPUTATION
+
 
 ### Drill
 
@@ -38,5 +39,34 @@
 
 11. Before writing out the values from the vector, sort them (that’ll make them come out in increasing order).
 
+
+### Exercises
+
+2. If we define the median of a sequence as “a number so that exactly as many elements come before it in the sequence as
+   come after it,” fix the program in §4.6.3 so that it always prints out a median. 
+   Hint: A median need not be an element of the sequence
+   
+3. Read a sequence of double values into a vector. Think of each value as the distance between two cities along a given
+   route. Compute and print the total distance (the sum of all distances). Find and print the smallest and greatest 
+   distance between two neighboring cities. Find and print the mean distance between two neighboring cities.
+
+4. Write a program to play a numbers guessing game. The user thinks of a number between 1 and 100 and your program
+   asks questions to figure out what the number is (e.g., “Is the number you are thinking of less than 50?”). Your program
+   should be able to identify the number after asking no more than seven questions. Hint: Use the < and <= operators and 
+   the if-else construct.
+   
+5. Write a program that performs as a very simple calculator. Your calculator should be able to handle the four basic math
+   operations — add, subtract, multiply, and divide — on two input values. Your program should prompt the user to enter
+   three arguments: two double values and a character to represent an operation. If the entry arguments are 35.6, 24.1, and
+   '+', the program output should be `The sum of 35.6 and 24.1 is 59.7`.
+
+6. Make a vector holding the ten string values "zero", "one", . . . "nine". Use that in a program that converts a digit to
+   its corresponding spelled-out value; e.g., the input 7 gives the output seven. Have the same program, using the same
+   input loop, convert spelled-out numbers into their digit form; e.g., the input seven gives the output 7.
+
+
+
+   
+  
 
 
