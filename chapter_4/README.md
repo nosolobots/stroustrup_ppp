@@ -73,8 +73,8 @@
    program to calculate how many squares are required to give the inventor at least 1000 grains of rice, at least 1,000,000
    grains, and at least 1,000,000,000 grains. You’ll need a loop, of course, and probably an int to keep track of which
    square you are at, an int to keep the number of grains on the current square, and an int to keep track of the grains on
-   all previous squares. We suggest that you write out the value of all your variables for each iteration of the loop so that
-   you can see what’s going on.
+   all previous squares. We suggest that you write out the value of all your variables for each iteration of the loop so
+   that you can see what’s going on.
 
 9. Try to calculate the number of rice grains that the inventor asked for in exercise 8 above. You’ll find that the number 
    is so large that it won’t fit in an int or a double. Observe what happens when the number gets too large to represent
@@ -82,10 +82,55 @@
    grains (using an int)? What is the largest number of squares for which you can calculate the approximate number of
    grains (using a double)?
 
+10. Write a program that plays the game “Rock, Paper, Scissors.” If you are not familiar with the game do some research
+    (e.g., on the web using Google). Research is a common task for programmers. Use a switch-statement to solve this
+    exercise. Also, the machine should give random answers (i.e., select the next rock, paper, or scissors randomly). 
+    Real randomness is too hard to provide just now, so just build a vector with a sequence of values to be used as 
+    “the next value.” If you build the vector into the program, it will always play the same game, so maybe you should 
+    let the user enter some values. Try variations to make it less easy for the user to guess which move the machine will
+    make next.
+    
+11. Create a program to find all the prime numbers between 1 and 100. One way to do this is to write a function that will
+    check if a number is prime (i.e., see if the number can be divided by a prime number smaller than itself) using a vector
+    of primes in order (so that if the vector is called primes, primes[0]==2, primes[1]==3, primes[2]==5, etc.). Then write
+    a loop that goes from 1 to 100, checks each number to see if it is a prime, and stores each prime found in a vector.
+    Write another loop that lists the primes you found. You might check your result by comparing your vector of prime
+    numbers with primes. Consider 2 the first prime. 
+    
+12. Modify the program described in the previous exercise to take an input value max and then find all prime numbers from 
+    1 to max.
+    
+13. Create a program to find all the prime numbers between 1 and 100. There is a classic method for doing this, called the
+    “Sieve of Eratosthenes.” If you don’t know that method, get on the web and look it up. Write your program using this
+    method.
+    
+14. Modify the program described in the previous exercise to take an input value max and then find all prime numbers from 
+    1 to max.
+    
+15. Write a program that takes an input value n and then finds the first n primes.
 
+16. In the drill, you wrote a program that, given a series of numbers, found the max and min of that series. The number that
+    appears the most times in a sequence is called the mode. Create a program that finds the mode of a set of positive
+    integers.
+    
+17. Write a program that finds the min, max, and mode of a sequence of strings.
 
+18. Write a program to solve quadratic equations. A quadratic equation is of the form
 
-   
+                    ax² + bx + c = 0
+
+    If you don’t know the quadratic formula for solving such an expression, do some research. Remember, researching how to
+    solve a problem is often necessary before a programmer can teach the computer how to solve it. Use doubles for the 
+    user inputs for a, b, and c. Since there are two solutions to a quadratic equation, output both x1 and x2.
+
+19. Write a program where you first enter a set of name-and-value pairs, such as Joe 17 and Barbara 22. For each pair, add
+    the name to a vector called names and the number to a vector called scores (in corresponding positions, so that if
+    names[7]=="Joe" then scores[7]==17). Terminate input with NoName 0. Check that each name is unique and terminate with an
+    error message if a name is entered twice. Write out all the (name,score) pairs, one per line.
   
+20. Modify the program from exercise 19 so that when you enter a name, the program will output the corresponding score or
+    `name not found`.
+    
+21. Modify the program from exercise 19 so that when you enter an integer, the program will output all the names with that       score or `score not found`
 
 
